@@ -1,0 +1,30 @@
+.faceCard {
+    width: 600px; 
+    height: 600px; 
+    
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+    position: relative; 
+    margin: 20px; 
+    border-radius: 15px;
+    overflow: hidden; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+
+    filter: sepia(50%) hue-rotate(240deg) saturate(150%) brightness(90%);
+    transition: filter 1s ease; 
+}
+
+.faceCardActive {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7); 
+
+    filter: none;
+    transition: filter 1s ease; 
+}
+
+video {
+    border-radius: 15px; 
+    transition: transform 0.2s ease; 
+}
+
+.faceCardActive video {
+    transform: scale(1.2); 
+}
