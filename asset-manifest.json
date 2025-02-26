@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ReactVadReminder/static/css/main.43626352.css",
+    "main.js": "/ReactVadReminder/static/js/main.9ab3e2ec.js",
+    "static/js/453.f06422b5.chunk.js": "/ReactVadReminder/static/js/453.f06422b5.chunk.js",
+    "static/media/vadSmok.mp4": "/ReactVadReminder/static/media/vadSmok.8411d581f5191f3c0b29.mp4",
+    "static/media/gachi.jpg": "/ReactVadReminder/static/media/gachi.018ff30cae5e4b1cff96.jpg",
+    "index.html": "/ReactVadReminder/index.html",
+    "main.43626352.css.map": "/ReactVadReminder/static/css/main.43626352.css.map",
+    "main.9ab3e2ec.js.map": "/ReactVadReminder/static/js/main.9ab3e2ec.js.map",
+    "453.f06422b5.chunk.js.map": "/ReactVadReminder/static/js/453.f06422b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43626352.css",
+    "static/js/main.9ab3e2ec.js"
+  ]
+}
