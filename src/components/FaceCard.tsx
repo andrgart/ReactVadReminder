@@ -1,8 +1,7 @@
-import faceGif from '../gif/vadSmok.mp4';
 import '../css/faceCard.css';
 import { useState } from 'react';
 
-function FaceCard() {
+function FaceCard({ gif }: any) {
   const [isHovered, setIsHovered] = useState(false);
   const [positionX, setPositionX] = useState(0);
   const [positionY, setPositionY] = useState(0);
@@ -34,8 +33,8 @@ function FaceCard() {
         transform: `rotateY(${positionX}deg) rotateX(${positionY}deg)`, 
       }} 
     >
-      <video width="600" height="600" loop autoPlay muted>
-        <source src={faceGif} type="video/mp4" />
+      <video width="350" height="350" loop autoPlay muted>
+        <source src={gif} type="video/mp4" />
       </video>
     </div>
   );
